@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.output{
+  height: 100vh;
+  background-color:red;
+  padding-left:45% ;
+}
+.centr_contenner{
+    
+    background-color: aqua;
+    height: 25%;
+    width: 75%;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+li{
+    font-style: italic;
+}
