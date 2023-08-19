@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Functional Baap Er Bank</title>
+</head>
+<body>
+    <h1 class="text-5xl text-center">Functional <span class="text-red-500 font-medium">Baap-Er-Bank</span>!!!</h1>
+  <main>
+    <!-- blance and transitiong summari -->
+    <section class="mt-8">
+        <div class="grid grid-cols-3 gap-4 w-3/4 mx-auto text-white ">
+            <div class="bg-yellow-400 p-8 rounded-lg">
+                <h4 class="text-3xl">Deposit</h4>
+                <h2 class="text-5xl font-medium">$ <span id="deposit-total">00</span></h2>
+            </div>
+            <div class="bg-red-400 p-8 rounded-lg">
+                <h4 class="text-3xl">withdraw</h4>
+                <h2 class="text-5xl font-medium">$ <span id="withdraw-total">00</span></h2>
+            </div>
+            <div class="bg-blue-400 p-8 rounded-lg">
+                <h4 class="text-3xl">Balance</h4>
+                <h2 class="text-5xl font-medium">$ <span id="blance-total">00</span></h2>
+            </div>
+            
+        </div>
+    </section>
+    
+    <!-- deposit and withraw -->
+    <section class="mt-8">
+        <div class="grid grid-cols-2 gap-4 w-3/4 mx-auto ">
+            <div class="bg-violet-400 p-8 rounded-lg">
+                <h3 class="text-3xl text-white mb-4">Your Deposit</h3>
+                <input id="diposit-field" class="w-3/4 block rounded block mb-4 px-4" type="text" placeholder="$ Amount you wat to deposit">
+                <button id="btn-deposit" class="bg-blue-800 px-6 py-2 text-white rounded-lg font-medium hover:bg-blue-400">Deposit</button>
+            </div>
+            <div class="bg-yellow-400 p-8 rounded-lg">
+                <h3 class="text-3xl text-white mb-4">Your Deposit</h3>
+                <input id="widthraw_field" class="w-3/4 block rounded block mb-4 px-4" type="text" placeholder="$ Amount you wat to width">
+                <button id="btn-widthraw" class="bg-blue-800 px-6 py-2 text-white rounded-lg font-medium hover:bg-blue-400">widthraw</button>
+            </div> 
+        </div>
+    </section>
+
+  </main>
+  <script src="js/utilites.js"></script>
+  <script src="js/function.js"></script>
+  <script src="js/functionwith.js"></script>
+  
+</body>
+</html>
